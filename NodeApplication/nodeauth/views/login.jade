@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	h1 LogIn
+	p Please LogIn below
+	form(method = 'post', action = '/users/login',enctype='multipart/form-data')
+		.form-group
+			label User Name
+			input.form-control(name = 'username', type = 'text', placeholder='User Name')
+		.form-group
+			label Password
+			input.form-control(name = 'password', type = 'password', placeholder='Enter Passsword')
+		input.btn.btn-default(name='submit', type = 'submit' , value = 'LogIn')
