@@ -1,0 +1,14 @@
+{
+  "name": "chatIO",
+  "version": "0.0.0",
+  "private": true,
+  
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "~4.13.1",
+    "mongodb":"*",
+    "mongoose":"*",
+    "multer": "0.1.6",
+	"socket.io": "*"
+  }
+}
